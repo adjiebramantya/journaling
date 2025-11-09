@@ -1,0 +1,210 @@
+{
+	"nav": {
+		"home": "Beranda",
+		"journal": "Jurnal",
+		"weekly": "Rekap Mingguan",
+		"login": "Masuk",
+		"signup": "Daftar",
+		"logout": "Keluar"
+	},
+	"footer": {
+		"rights": "© {year} JournaIA. Hak cipta dilindungi.",
+		"credit": "Dibuat dengan sepenuh hati oleh Adjie Bramantya."
+	},
+	"landing": {
+		"badge": "JournaIA",
+		"title": "Teman journaling dengan ringkasan AI, mood tracker, dan rekap mingguan.",
+		"description": "Bangun kebiasaan refleksi yang konsisten. JournaIA merangkum setiap cerita, memetakan suasana hati secara otomatis, dan merangkai highlight mingguan—semuanya tersimpan aman dan privat.",
+		"cta": {
+			"dashboard": "Lihat jurnal saya",
+			"weekly": "Rekap mingguan",
+			"signup": "Mulai gratis",
+			"login": "Sudah punya akun"
+		},
+		"features": {
+			"title": "Semua yang kamu butuhkan untuk refleksi mendalam.",
+			"privacy": {
+				"title": "Konten aman dan privat",
+				"description": "Semua entri disimpan dengan kontrol akses penuh dan perlindungan yang ketat."
+			},
+			"summary": {
+				"title": "Ringkasan & saran instan",
+				"description": "AI merangkum inti cerita dan memberi rekomendasi praktis segera setelah kamu menulis."
+			},
+			"mood": {
+				"title": "Mood tracker otomatis",
+				"description": "Lihat tren suasana hati 14 hari terakhir lengkap dengan mood dominan dan jumlah entri."
+			},
+			"weekly": {
+				"title": "Rekap mingguan adaptif",
+				"description": "Ringkas insight tujuh hari dengan saran aksi personal dari AI, tersedia on-demand."
+			}
+		},
+		"statsCard": {
+			"title": "Dashboard real-time",
+			"description": "Jumlah entri, persentase yang sudah diringkas AI, dan mood dominan hadir otomatis di dalam aplikasi.",
+			"statsTitle": "Statistik terbaru",
+			"entries": "Entri tersimpan",
+			"summaries": "Ringkasan AI",
+			"progress": "Progress diringkas",
+			"dominantMood": "Mood dominan",
+			"latestRecommendation": "Rekomendasi terbaru",
+			"noRecommendation": "Mulai dengan menulis satu entri hari ini, kemudian aktifkan rekap mingguan untuk melihat pola perasaanmu."
+		},
+		"footerPrompt": {
+			"title": "Belum siap commit?",
+			"description": "Coba tulis satu entri dan lihat bagaimana AI membantu menangkap insight penting dalam hitungan detik.",
+			"action": "Buat akun demo"
+		}
+	},
+	"common": {
+		"noData": "Belum ada data",
+		"loading": "Memproses...",
+		"generate": "Buat",
+		"tryAgain": "Coba lagi nanti"
+	},
+	"auth": {
+		"logout": "Keluar",
+		"loggingOut": "Keluar..."
+	},
+	"journal": {
+		"badge": "Jurnal harian",
+		"title": "Catat, pahami, dan berkembang setiap hari.",
+		"description": "Gunakan ruang ini untuk menuliskan apa pun yang kamu rasakan. JournaIA akan membantu merangkum inti cerita dan memberikan saran yang dapat ditindaklanjuti.",
+		"stats": {
+			"title": "Statistik cepat",
+			"description": "Pantau progres journaling dan akses rekap mingguan.",
+			"entries": "Total entri",
+			"summaries": "Ringkasan AI",
+			"note": "Ringkasan otomatis akan muncul beberapa detik setelah kamu menyimpan entri.",
+			"weeklyTitle": "Rekap mingguan",
+			"weeklyDescription": "Dapatkan sorotan dan rekomendasi AI untuk perjalananmu selama seminggu.",
+			"weeklyButton": "Buka rekap minggu ini"
+		},
+		"form": {
+			"title": "Tulis jurnal baru",
+			"subtitle": "Ceritakan hari kamu sejujur mungkin. Kami akan membantu merangkum dan memberi insight setelahnya.",
+			"titleLabel": "Judul (opsional)",
+			"titlePlaceholder": "Contoh: Hari pertama di kantor baru",
+			"moodLabel": "Bagaimana suasana hati?",
+			"contentLabel": "Ceritamu hari ini",
+			"contentPlaceholder": "Tulis dengan bebas. Apa yang membuatmu bersemangat atau justru menantang hari ini?",
+			"submit": "Simpan dan ringkas",
+			"saving": "Menyimpan...",
+			"summarizing": "Menyiapkan ringkasan...",
+			"hint": "Ringkasan AI biasanya siap dalam beberapa detik.",
+			"info": {
+				"success": "Jurnal tersimpan dan ringkasan AI berhasil dibuat ✨"
+			},
+			"errors": {
+				"noContent": "Tulisan jurnal tidak boleh kosong.",
+				"noSession": "Sesi autentikasi tidak ditemukan. Silakan masuk ulang.",
+				"save": "Gagal menyimpan jurnal.",
+				"summary": "Gagal menghasilkan ringkasan AI. Coba lagi beberapa saat."
+			}
+		},
+		"moodTracker": {
+			"title": "Mood tracker otomatis",
+			"subtitle": "Ringkasan suasana hatimu selama 14 hari terakhir berdasarkan entri jurnal.",
+			"dominant": "Mood dominan",
+			"legend": "Legenda mood",
+			"empty": "Mood tracker akan aktif setelah kamu menambahkan entri dengan mood selama beberapa hari berturut-turut."
+		},
+		"timeline": {
+			"title": "Koleksi jurnalmu",
+			"description": "Kami menyusun timeline agar kamu mudah melihat perjalanan emosimu.",
+			"emptyTitle": "Belum ada jurnal",
+			"emptyDescription": "Mulailah dengan satu cerita kecil hari ini. AI akan menyiapkan ringkasan dan saran untukmu.",
+			"moodLabel": "Mood",
+			"summaryTitle": "Ringkasan AI",
+			"suggestionTitle": "Saran tindakan",
+			"missing": "Ringkasan dan saran AI belum tersedia.",
+			"generate": "Buat ringkasan",
+			"generating": "Memproses..."
+		}
+	},
+	"weekly": {
+		"badge": "Rekap mingguan",
+		"title": "Tangkap pola perjalananmu setiap minggu.",
+		"description": "Satu klik untuk menyusun highlight dan rekomendasi yang membantumu melangkah lebih mantap pada minggu berikutnya.",
+		"generate": {
+			"title": "Buat rekap terbaru",
+			"description": "Kami akan merangkum seluruh jurnal dalam 7 hari terakhir (Senin - Minggu) beserta rekomendasi yang bisa langsung kamu tindaklanjuti.",
+			"button": "Buat rekap minggu ini",
+			"loading": "Menyusun rekap...",
+			"error": "Gagal membuat rekap mingguan. Coba lagi beberapa saat."
+		},
+		"history": {
+			"title": "Riwayat rekap",
+			"subtitle": "Data terbaru ditampilkan di atas",
+			"emptyTitle": "Belum ada rekap mingguan",
+			"emptyDescription": "Tulis beberapa jurnal dalam seminggu, lalu tekan tombol rekap untuk melihat highlight perjalananmu."
+		},
+		"card": {
+			"range": "Rentang minggu",
+			"generatedAt": "Dibuat pada",
+			"summary": "Ringkasan utama",
+			"suggestion": "Fokus pekan depan"
+		},
+		"errors": {
+			"load": "Gagal memuat rekap mingguan: {message}"
+		}
+	},
+	"login": {
+		"title": "Masuk",
+		"subtitle": "Tidak punya akun?",
+		"switch": "Daftar sekarang",
+		"email": "Email",
+		"password": "Password",
+		"submit": "Masuk",
+		"loading": "Memproses...",
+		"heroDescription": "Lanjutkan catatanmu, sambung kembali refleksi harian, dan temukan insight baru yang sudah menunggu.",
+		"policy": "Dengan masuk kamu menyetujui Kebijakan Privasi dan Ketentuan Penggunaan JournaIA.",
+		"error": "Email atau password tidak valid."
+	},
+	"account": {
+		"delete": {
+			"cardTitle": "Hapus akun",
+			"cardDescription": "Tindakan ini akan menghapus profil, jurnal, ringkasan, dan seluruh rekap mingguan secara permanen. Proses ini tidak bisa dibatalkan.",
+			"button": "Hapus akun saya",
+			"modalTitle": "Yakin ingin hapus akun selamanya?",
+			"modalDescription": "Semua catatan journaling akan hilang dan aksesmu akan dicabut segera setelah konfirmasi. Pastikan kamu benar-benar yakin.",
+			"confirm": "Ya, hapus semuanya",
+			"loading": "Menghapus...",
+			"cancel": "Batalkan",
+			"error": "Akun tidak bisa dihapus sekarang. Coba lagi beberapa saat."
+		}
+	},
+	"signup": {
+		"title": "Daftar",
+		"subtitle": "Sudah punya akun?",
+		"switch": "Masuk di sini",
+		"fullName": "Nama lengkap",
+		"fullNamePlaceholder": "Opsional",
+		"email": "Email",
+		"password": "Password",
+		"submit": "Buat akun",
+		"loading": "Memproses...",
+		"info": "Kami telah mengirimkan tautan verifikasi ke email kamu. Harap cek inbox untuk mengaktifkan akun.",
+		"heroDescription": "Tangkap cerita harian, dapatkan sorotan instan, dan jalankan proses bertumbuh dengan pendamping journaling yang aman.",
+		"errors": {
+			"signup": "Gagal membuat akun. Coba lagi nanti."
+		},
+		"privacy": "Kami menjaga privasi data jurnalmu dengan enkripsi dan kontrol akses ketat. Kamu bisa menghapus akun kapan saja."
+	},
+	"weeklyGenerator": {
+		"error": "Gagal membuat rekap mingguan. Coba lagi beberapa saat."
+	},
+	"moods": {
+		"happy": "Senang",
+		"calm": "Tenang",
+		"energized": "Bersemangat",
+		"anxious": "Cemas",
+		"sad": "Sedih",
+		"tired": "Lelah"
+	},
+	"messages": {
+		"journalNotFound": "Jurnal tidak ditemukan",
+		"unauthorized": "Kamu perlu masuk untuk melanjutkan"
+	}
+}

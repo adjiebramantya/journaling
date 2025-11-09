@@ -1,0 +1,210 @@
+{
+	"nav": {
+		"home": "Home",
+		"journal": "Journal",
+		"weekly": "Weekly Recap",
+		"login": "Log in",
+		"signup": "Sign up",
+		"logout": "Log out"
+	},
+	"footer": {
+		"rights": "© {year} JournaIA. All rights reserved.",
+		"credit": "Crafted with care by Adjie Bramantya."
+	},
+	"landing": {
+		"badge": "JournaIA",
+		"title": "Your journaling companion with AI summaries, mood tracking, and weekly recaps.",
+		"description": "Build a consistent reflection habit. JournaIA distills every story, tracks your emotions automatically, and assembles weekly highlights—secure and private by design.",
+		"cta": {
+			"dashboard": "Open my journal",
+			"weekly": "View weekly recap",
+			"signup": "Start for free",
+			"login": "Already have an account"
+		},
+		"features": {
+			"title": "Everything you need for meaningful reflection.",
+			"privacy": {
+				"title": "Private and secure",
+				"description": "Entries are stored with strict access controls and robust protection."
+			},
+			"summary": {
+				"title": "Instant summaries & advice",
+				"description": "AI highlights the essence of each entry and offers practical suggestions right after you write."
+			},
+			"mood": {
+				"title": "Automatic mood tracking",
+				"description": "See 14-day mood trends, your dominant feeling, and how often each emotion appears."
+			},
+			"weekly": {
+				"title": "Adaptive weekly recap",
+				"description": "Condense seven days of insights with personalised, actionable guidance on demand."
+			}
+		},
+		"statsCard": {
+			"title": "Real-time dashboard",
+			"description": "Entry totals, AI-summary coverage, and dominant mood update automatically inside the app.",
+			"statsTitle": "Latest stats",
+			"entries": "Entries saved",
+			"summaries": "AI summaries",
+			"progress": "Summary coverage",
+			"dominantMood": "Dominant mood",
+			"latestRecommendation": "Latest guidance",
+			"noRecommendation": "Begin with a single entry today, then generate a weekly recap to reveal your emotional patterns."
+		},
+		"footerPrompt": {
+			"title": "Not ready to commit?",
+			"description": "Write one entry and see how AI captures meaningful insights in seconds.",
+			"action": "Create demo account"
+		}
+	},
+	"common": {
+		"noData": "No data yet",
+		"loading": "Processing...",
+		"generate": "Generate",
+		"tryAgain": "Please try again later"
+	},
+	"auth": {
+		"logout": "Log out",
+		"loggingOut": "Logging out..."
+	},
+	"journal": {
+		"badge": "Daily journal",
+		"title": "Capture, understand, and grow every day.",
+		"description": "Use this space to record anything you feel. JournaIA highlights the essence and offers actionable guidance afterward.",
+		"stats": {
+			"title": "Quick stats",
+			"description": "Track your journaling progress and jump to the weekly recap.",
+			"entries": "Total entries",
+			"summaries": "AI summaries",
+			"note": "Summaries usually appear a few seconds after you save.",
+			"weeklyTitle": "Weekly recap",
+			"weeklyDescription": "Get AI highlights and recommendations for your week.",
+			"weeklyButton": "Open this week's recap"
+		},
+		"form": {
+			"title": "Write a new journal entry",
+			"subtitle": "Share your day honestly. We'll summarise it and surface helpful insights right after.",
+			"titleLabel": "Title (optional)",
+			"titlePlaceholder": "Example: First day at the new office",
+			"moodLabel": "How are you feeling?",
+			"contentLabel": "Today's story",
+			"contentPlaceholder": "Write freely. What excited you or felt challenging today?",
+			"submit": "Save & summarise",
+			"saving": "Saving...",
+			"summarizing": "Preparing summary...",
+			"hint": "AI summaries usually appear within a few seconds.",
+			"info": {
+				"success": "Entry saved and AI summary created ✨"
+			},
+			"errors": {
+				"noContent": "Journal content cannot be empty.",
+				"noSession": "Authentication session not found. Please sign in again.",
+				"save": "Failed to save journal entry.",
+				"summary": "Couldn't generate an AI summary. Please try again shortly."
+			}
+		},
+		"moodTracker": {
+			"title": "Automatic mood tracker",
+			"subtitle": "A 14-day view of your emotions based on recent entries.",
+			"dominant": "Dominant mood",
+			"legend": "Mood legend",
+			"empty": "The mood tracker activates after you log emotions for a few consecutive days."
+		},
+		"timeline": {
+			"title": "Your journal collection",
+			"description": "We organise entries on a timeline so you can revisit your emotional journey easily.",
+			"emptyTitle": "No entries yet",
+			"emptyDescription": "Start with a small story today. AI will summarise it and suggest a next step.",
+			"moodLabel": "Mood",
+			"summaryTitle": "AI summary",
+			"suggestionTitle": "Actionable suggestion",
+			"missing": "Summary and suggestion are not available yet.",
+			"generate": "Generate summary",
+			"generating": "Processing..."
+		}
+	},
+	"weekly": {
+		"badge": "Weekly recap",
+		"title": "Spot your patterns every single week.",
+		"description": "One click assembles highlights and tailored guidance to help you move into next week with clarity.",
+		"generate": {
+			"title": "Create the latest recap",
+			"description": "We'll summarise your last seven days of entries (Monday through Sunday) with actionable recommendations.",
+			"button": "Create this week's recap",
+			"loading": "Generating recap...",
+			"error": "We couldn't generate the weekly recap. Please try again shortly."
+		},
+		"history": {
+			"title": "Recap history",
+			"subtitle": "Newest data appears first",
+			"emptyTitle": "No weekly recaps yet",
+			"emptyDescription": "Write a few entries this week, then generate a recap to see your highlights."
+		},
+		"card": {
+			"range": "Week range",
+			"generatedAt": "Generated on",
+			"summary": "Key summary",
+			"suggestion": "Next-week focus"
+		},
+		"errors": {
+			"load": "Failed to load weekly recap: {message}"
+		}
+	},
+	"login": {
+		"title": "Log in",
+		"subtitle": "Don't have an account?",
+		"switch": "Sign up now",
+		"email": "Email",
+		"password": "Password",
+		"submit": "Log in",
+		"loading": "Processing...",
+		"heroDescription": "Pick up where you left off, continue your reflections, and see fresh insights waiting inside your journal.",
+		"policy": "By logging in you agree to JournaIA's Privacy Policy and Terms of Use.",
+		"error": "Invalid email or password."
+	},
+	"account": {
+		"delete": {
+			"cardTitle": "Delete account",
+			"cardDescription": "This will permanently remove your profile, journals, summaries, and weekly recaps. This action cannot be undone.",
+			"button": "Delete my account",
+			"modalTitle": "Delete account permanently?",
+			"modalDescription": "We will erase your entire journaling history and remove your access immediately. Please confirm only if you are sure.",
+			"confirm": "Yes, delete everything",
+			"loading": "Deleting...",
+			"cancel": "Keep my account",
+			"error": "We couldn't delete your account. Please try again in a moment."
+		}
+	},
+	"signup": {
+		"title": "Create account",
+		"subtitle": "Already have an account?",
+		"switch": "Log in",
+		"fullName": "Full name",
+		"fullNamePlaceholder": "Optional",
+		"email": "Email",
+		"password": "Password",
+		"submit": "Create account",
+		"loading": "Processing...",
+		"info": "We've sent a verification link to your email. Please check your inbox to activate your account.",
+		"heroDescription": "Capture daily reflections, get instant insights, and keep your growth on track with a private journaling companion.",
+		"errors": {
+			"signup": "Unable to create account. Please try again later."
+		},
+		"privacy": "We protect your journals with encryption and strict access control. You can delete your account at any time."
+	},
+	"weeklyGenerator": {
+		"error": "We couldn't generate the weekly recap. Please try again shortly."
+	},
+	"moods": {
+		"happy": "Happy",
+		"calm": "Calm",
+		"energized": "Energised",
+		"anxious": "Anxious",
+		"sad": "Sad",
+		"tired": "Tired"
+	},
+	"messages": {
+		"journalNotFound": "Journal not found",
+		"unauthorized": "You need to sign in to continue"
+	}
+}
