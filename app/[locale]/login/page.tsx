@@ -1,12 +1,13 @@
 "use client";
 
 import Link from "next/link";
+import { Suspense } from "react";
 import { useLocale, useTranslations } from "../../../i18n/client";
 import { useRouter, useSearchParams } from "next/navigation";
 import { FormEvent, useState } from "react";
 import { createClient } from "../../../lib/supabaseClient";
 
-export default function LoginPage() {
+function LoginPageContent() {
 	const locale = useLocale();
 	const router = useRouter();
 	const searchParams = useSearchParams();
@@ -114,5 +115,20 @@ export default function LoginPage() {
 				</section>
 			</main>
 		</div>
+	);
+}
+
+export default function LoginPage() {
+	return (
+		<Suspense
+			fallback={
+				<div className='flex min-h-screen items-center justify-center bg-zinc-950 text-white'>
+					<span className='text-sm uppercase tracking-[0.3em] text-white/60'>
+						Loading…
+					</span>
+				</div>
+			}>
+			<LoginPageContent />
+		</Suspense>
 	);
 }

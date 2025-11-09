@@ -5,9 +5,14 @@ import { getMessages, createTranslator } from "../../i18n/request";
 import AppHeader from "../../components/layout/AppHeader";
 import { routing, defaultLocale, Locale } from "../../i18n/routing";
 
+const title = "JournaIA";
+const description = "AI-assisted journaling for daily reflection";
+const siteUrl = "https://journaia.app";
+
 export const metadata: Metadata = {
-	title: "JournaIA",
-	description: "AI-assisted journaling for daily reflection",
+	title,
+	description,
+	metadataBase: new URL(siteUrl),
 };
 
 export function generateStaticParams() {

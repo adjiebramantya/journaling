@@ -3,11 +3,13 @@ import "./globals.css";
 
 const title = "JournaIA";
 const description = "AI-assisted journaling for daily reflection";
+const siteUrl = "https://journaia.app";
 const iconPath = "/journaia-icon.svg";
 
 export const metadata: Metadata = {
 	title,
 	description,
+	metadataBase: new URL(siteUrl),
 	icons: {
 		icon: iconPath,
 		shortcut: iconPath,
@@ -16,7 +18,7 @@ export const metadata: Metadata = {
 	openGraph: {
 		title,
 		description,
-		url: "https://journaia.app",
+		url: siteUrl,
 		type: "website",
 		images: [{ url: iconPath }],
 	},
