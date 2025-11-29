@@ -84,7 +84,7 @@
 		"form": {
 			"title": "Write a new journal entry",
 			"subtitle": "Share your day honestly. We'll summarise it and surface helpful insights right after.",
-			"titleLabel": "Title (optional)",
+			"titleLabel": "Title",
 			"titlePlaceholder": "Example: First day at the new office",
 			"moodLabel": "How are you feeling?",
 			"contentLabel": "Today's story",

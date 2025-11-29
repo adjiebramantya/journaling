@@ -84,7 +84,7 @@
 		"form": {
 			"title": "Tulis jurnal baru",
 			"subtitle": "Ceritakan hari kamu sejujur mungkin. Kami akan membantu merangkum dan memberi insight setelahnya.",
-			"titleLabel": "Judul (opsional)",
+			"titleLabel": "Judul",
 			"titlePlaceholder": "Contoh: Hari pertama di kantor baru",
 			"moodLabel": "Bagaimana suasana hati?",
 			"contentLabel": "Ceritamu hari ini",
